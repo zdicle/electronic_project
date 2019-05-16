@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6662,6 +6662,13 @@ diameter 7 mm, grid 2.54 mm</description>
 <packageinstance name="TT2D7L"/>
 </packageinstances>
 </package3d>
+<package3d name="TT2D7" urn="urn:adsk.eagle:package:23319/1" type="box" library_version="5">
+<description>ELECTROLYTIC CAPACITOR
+diameter 7 mm, grid 2.54 mm</description>
+<packageinstances>
+<packageinstance name="TT2D7"/>
+</packageinstances>
+</package3d>
 <package3d name="TT5D10" urn="urn:adsk.eagle:package:23302/1" type="box" library_version="10">
 <description>ELECTROLYTIC CAPACITOR
 diameter 10 mm, grid 5.08 mm</description>
@@ -7029,6 +7036,13 @@ grid 45.72 mm, diameter 25 mm</description>
 <packageinstance name="E45-25"/>
 </packageinstances>
 </package3d>
+<package3d name="E5-10,5" urn="urn:adsk.eagle:package:23372/1" type="box" library_version="5">
+<description>ELECTROLYTIC CAPACITOR
+grid 5.08 mm, diameter 10.5 mm</description>
+<packageinstances>
+<packageinstance name="E5-10,5"/>
+</packageinstances>
+</package3d>
 <package3d name="E5-13" urn="urn:adsk.eagle:package:23375/1" type="box" library_version="10">
 <description>ELECTROLYTIC CAPACITOR
 grid 5.08 mm, diameter 13 mm</description>
@@ -7164,12 +7178,180 @@ http://www.bccomponents.com/</description>
 <packageinstance name="085CS_1W"/>
 </packageinstances>
 </package3d>
+<package3d name="085CS_1AR" urn="urn:adsk.eagle:package:23396/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors reflow soldering
+SMD (Chip) Standard 085 CS
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="085CS_1AR"/>
+</packageinstances>
+</package3d>
 <package3d name="085CS_1AW" urn="urn:adsk.eagle:package:23385/1" type="box" library_version="10">
 <description>Aluminum electrolytic capacitors wave soldering
 SMD (Chip) Standard 085 CS
 http://www.bccomponents.com/</description>
 <packageinstances>
 <packageinstance name="085CS_1AW"/>
+</packageinstances>
+</package3d>
+<package3d name="139CLL-2R" urn="urn:adsk.eagle:package:23387/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors reflow soldering
+SMD (Chip) Long Life 139 CLL
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="139CLL-2R"/>
+</packageinstances>
+</package3d>
+<package3d name="139CLL-2W" urn="urn:adsk.eagle:package:23386/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors wave soldering
+SMD (Chip) Long Life 139 CLL
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="139CLL-2W"/>
+</packageinstances>
+</package3d>
+<package3d name="139CLL-3R" urn="urn:adsk.eagle:package:23388/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors reflow soldering
+SMD (Chip) Long Life 139 CLL
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="139CLL-3R"/>
+</packageinstances>
+</package3d>
+<package3d name="139CLL-3W" urn="urn:adsk.eagle:package:23390/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors wave soldering
+SMD (Chip) Long Life 139 CLL
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="139CLL-3W"/>
+</packageinstances>
+</package3d>
+<package3d name="140CLH-0810" urn="urn:adsk.eagle:package:23392/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, High temperature 140 CLH
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="140CLH-0810"/>
+</packageinstances>
+</package3d>
+<package3d name="140CLH-1010" urn="urn:adsk.eagle:package:23391/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, High temperature 140 CLH
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="140CLH-1010"/>
+</packageinstances>
+</package3d>
+<package3d name="140CLH-1014" urn="urn:adsk.eagle:package:23393/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, High temperature 140 CLH
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="140CLH-1014"/>
+</packageinstances>
+</package3d>
+<package3d name="150CLZ-0810" urn="urn:adsk.eagle:package:23394/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, very low impedance 150 CLZ
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="150CLZ-0810"/>
+</packageinstances>
+</package3d>
+<package3d name="150CLZ-1010" urn="urn:adsk.eagle:package:23403/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, very low impedance 150 CLZ
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="150CLZ-1010"/>
+</packageinstances>
+</package3d>
+<package3d name="150CLZ-1014" urn="urn:adsk.eagle:package:23405/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, very low impedance 150 CLZ
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="150CLZ-1014"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-0405" urn="urn:adsk.eagle:package:23397/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-0405"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-0505" urn="urn:adsk.eagle:package:23402/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-0505"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-0605" urn="urn:adsk.eagle:package:23398/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-0605"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-0807" urn="urn:adsk.eagle:package:23400/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-0807"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-0810" urn="urn:adsk.eagle:package:23401/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-0810"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-1010" urn="urn:adsk.eagle:package:23413/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-1010"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-1012" urn="urn:adsk.eagle:package:23404/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-1012"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-1014" urn="urn:adsk.eagle:package:23406/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-1014"/>
+</packageinstances>
+</package3d>
+<package3d name="175TMP-0808" urn="urn:adsk.eagle:package:23412/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors
+High Temperature solid electrolytic SMD 175 TMP
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="175TMP-0808"/>
+</packageinstances>
+</package3d>
+<package3d name="175TMP-0810" urn="urn:adsk.eagle:package:23407/1" type="box" library_version="5">
+<description>Aluminum electrolytic capacitors
+High Temperature solid electrolytic SMD 175 TMP
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="175TMP-0810"/>
 </packageinstances>
 </package3d>
 <package3d name="A/3216-18R" urn="urn:adsk.eagle:package:23410/2" type="model" library_version="10">
@@ -7198,6 +7380,32 @@ KEMET T / EIA 3528-12</description>
 <packageinstance name="B/3528-21W"/>
 </packageinstances>
 </package3d>
+<package3d name="C/6032-28R" urn="urn:adsk.eagle:package:23415/1" type="box" library_version="5">
+<description>Chip Capacitor Type KEMET C / EIA 6032-28 reflow solderKEMET U / EIA 6032-15</description>
+<packageinstances>
+<packageinstance name="C/6032-28R"/>
+</packageinstances>
+</package3d>
+<package3d name="C/6032-28W" urn="urn:adsk.eagle:package:23420/1" type="box" library_version="5">
+<description>Chip Capacitor Type KEMET C / EIA 6032-28 Wafe solder
+KEMET U / EIA 6032-15</description>
+<packageinstances>
+<packageinstance name="C/6032-28W"/>
+</packageinstances>
+</package3d>
+<package3d name="D/7343-31R" urn="urn:adsk.eagle:package:23417/1" type="box" library_version="5">
+<description>Chip Capacitor Type KEMET D / EIA 7343-21KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 reflow solder</description>
+<packageinstances>
+<packageinstance name="D/7343-31R"/>
+</packageinstances>
+</package3d>
+<package3d name="D/7343-31W" urn="urn:adsk.eagle:package:23414/1" type="box" library_version="5">
+<description>Chip Capacitor Type KEMET D / EIA 7343-21
+KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
+<packageinstances>
+<packageinstance name="D/7343-31W"/>
+</packageinstances>
+</package3d>
 <package3d name="E/7260-38R" urn="urn:adsk.eagle:package:23416/1" type="box" library_version="10">
 <description>Chip Capacitor Type KEMET E / EIA 7260-38 reflow solder</description>
 <packageinstances>
@@ -7208,6 +7416,18 @@ KEMET T / EIA 3528-12</description>
 <description>Chip Capacitor Type KEMET E / EIA 7260-38 Wafe solder</description>
 <packageinstances>
 <packageinstance name="E/7260-38W"/>
+</packageinstances>
+</package3d>
+<package3d name="R/2012-12R" urn="urn:adsk.eagle:package:23426/1" type="box" library_version="5">
+<description>Chip Capacitor Type KEMET R/EIA 2012-12 reflow solder</description>
+<packageinstances>
+<packageinstance name="R/2012-12R"/>
+</packageinstances>
+</package3d>
+<package3d name="R/2012-12W" urn="urn:adsk.eagle:package:23419/1" type="box" library_version="5">
+<description>Chip Capacitor Type KEMET R/EIA 2012-12 Wafe solder</description>
+<packageinstances>
+<packageinstance name="R/2012-12W"/>
 </packageinstances>
 </package3d>
 <package3d name="PANASONIC_A" urn="urn:adsk.eagle:package:23418/2" type="model" library_version="10">
@@ -7264,6 +7484,62 @@ diameter 5 mm, grid 2.54 mm</description>
 grid 2.54 mm, diameter 6 mm</description>
 <packageinstances>
 <packageinstance name="E2,5-6E"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_A" urn="urn:adsk.eagle:package:25926/1" type="box" library_version="5">
+<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_A"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_Z" urn="urn:adsk.eagle:package:25927/1" type="box" library_version="5">
+<description>Chip Capacitor Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_Z"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_P" urn="urn:adsk.eagle:package:25919/1" type="box" library_version="5">
+<description>Chip Capacitor Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_P"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_B" urn="urn:adsk.eagle:package:25920/1" type="box" library_version="5">
+<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_B"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_C" urn="urn:adsk.eagle:package:25921/1" type="box" library_version="5">
+<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_C"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_D" urn="urn:adsk.eagle:package:25923/1" type="box" library_version="5">
+<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_D"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_E" urn="urn:adsk.eagle:package:25922/1" type="box" library_version="5">
+<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_E"/>
 </packageinstances>
 </package3d>
 <package3d name="SANYO-OSCON_9E" urn="urn:adsk.eagle:package:23439/1" type="box" library_version="10">
@@ -7523,282 +7799,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <packageinstances>
 <packageinstance name="UD-8X10_NICHICON"/>
-</packageinstances>
-</package3d>
-<package3d name="TT2D7" urn="urn:adsk.eagle:package:23319/1" type="box" library_version="5">
-<description>ELECTROLYTIC CAPACITOR
-diameter 7 mm, grid 2.54 mm</description>
-<packageinstances>
-<packageinstance name="TT2D7"/>
-</packageinstances>
-</package3d>
-<package3d name="E5-10,5" urn="urn:adsk.eagle:package:23372/1" type="box" library_version="5">
-<description>ELECTROLYTIC CAPACITOR
-grid 5.08 mm, diameter 10.5 mm</description>
-<packageinstances>
-<packageinstance name="E5-10,5"/>
-</packageinstances>
-</package3d>
-<package3d name="085CS_1AR" urn="urn:adsk.eagle:package:23396/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors reflow soldering
-SMD (Chip) Standard 085 CS
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="085CS_1AR"/>
-</packageinstances>
-</package3d>
-<package3d name="139CLL-2R" urn="urn:adsk.eagle:package:23387/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors reflow soldering
-SMD (Chip) Long Life 139 CLL
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="139CLL-2R"/>
-</packageinstances>
-</package3d>
-<package3d name="139CLL-2W" urn="urn:adsk.eagle:package:23386/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors wave soldering
-SMD (Chip) Long Life 139 CLL
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="139CLL-2W"/>
-</packageinstances>
-</package3d>
-<package3d name="139CLL-3R" urn="urn:adsk.eagle:package:23388/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors reflow soldering
-SMD (Chip) Long Life 139 CLL
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="139CLL-3R"/>
-</packageinstances>
-</package3d>
-<package3d name="139CLL-3W" urn="urn:adsk.eagle:package:23390/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors wave soldering
-SMD (Chip) Long Life 139 CLL
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="139CLL-3W"/>
-</packageinstances>
-</package3d>
-<package3d name="140CLH-0810" urn="urn:adsk.eagle:package:23392/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors SMD (Chip)
-Long life base plate, High temperature 140 CLH
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="140CLH-0810"/>
-</packageinstances>
-</package3d>
-<package3d name="140CLH-1010" urn="urn:adsk.eagle:package:23391/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors SMD (Chip)
-Long life base plate, High temperature 140 CLH
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="140CLH-1010"/>
-</packageinstances>
-</package3d>
-<package3d name="140CLH-1014" urn="urn:adsk.eagle:package:23393/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors SMD (Chip)
-Long life base plate, High temperature 140 CLH
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="140CLH-1014"/>
-</packageinstances>
-</package3d>
-<package3d name="150CLZ-0810" urn="urn:adsk.eagle:package:23394/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors SMD (Chip)
-Long life base plate, very low impedance 150 CLZ
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="150CLZ-0810"/>
-</packageinstances>
-</package3d>
-<package3d name="150CLZ-1010" urn="urn:adsk.eagle:package:23403/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors SMD (Chip)
-Long life base plate, very low impedance 150 CLZ
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="150CLZ-1010"/>
-</packageinstances>
-</package3d>
-<package3d name="150CLZ-1014" urn="urn:adsk.eagle:package:23405/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors SMD (Chip)
-Long life base plate, very low impedance 150 CLZ
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="150CLZ-1014"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-0405" urn="urn:adsk.eagle:package:23397/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0405"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-0505" urn="urn:adsk.eagle:package:23402/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0505"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-0605" urn="urn:adsk.eagle:package:23398/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0605"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-0807" urn="urn:adsk.eagle:package:23400/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0807"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-0810" urn="urn:adsk.eagle:package:23401/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0810"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-1010" urn="urn:adsk.eagle:package:23413/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-1010"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-1012" urn="urn:adsk.eagle:package:23404/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-1012"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-1014" urn="urn:adsk.eagle:package:23406/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-1014"/>
-</packageinstances>
-</package3d>
-<package3d name="175TMP-0808" urn="urn:adsk.eagle:package:23412/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors
-High Temperature solid electrolytic SMD 175 TMP
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="175TMP-0808"/>
-</packageinstances>
-</package3d>
-<package3d name="175TMP-0810" urn="urn:adsk.eagle:package:23407/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors
-High Temperature solid electrolytic SMD 175 TMP
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="175TMP-0810"/>
-</packageinstances>
-</package3d>
-<package3d name="C/6032-28R" urn="urn:adsk.eagle:package:23415/1" type="box" library_version="5">
-<description>Chip Capacitor Type KEMET C / EIA 6032-28 reflow solderKEMET U / EIA 6032-15</description>
-<packageinstances>
-<packageinstance name="C/6032-28R"/>
-</packageinstances>
-</package3d>
-<package3d name="C/6032-28W" urn="urn:adsk.eagle:package:23420/1" type="box" library_version="5">
-<description>Chip Capacitor Type KEMET C / EIA 6032-28 Wafe solder
-KEMET U / EIA 6032-15</description>
-<packageinstances>
-<packageinstance name="C/6032-28W"/>
-</packageinstances>
-</package3d>
-<package3d name="D/7343-31R" urn="urn:adsk.eagle:package:23417/1" type="box" library_version="5">
-<description>Chip Capacitor Type KEMET D / EIA 7343-21KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 reflow solder</description>
-<packageinstances>
-<packageinstance name="D/7343-31R"/>
-</packageinstances>
-</package3d>
-<package3d name="D/7343-31W" urn="urn:adsk.eagle:package:23414/1" type="box" library_version="5">
-<description>Chip Capacitor Type KEMET D / EIA 7343-21
-KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
-<packageinstances>
-<packageinstance name="D/7343-31W"/>
-</packageinstances>
-</package3d>
-<package3d name="R/2012-12R" urn="urn:adsk.eagle:package:23426/1" type="box" library_version="5">
-<description>Chip Capacitor Type KEMET R/EIA 2012-12 reflow solder</description>
-<packageinstances>
-<packageinstance name="R/2012-12R"/>
-</packageinstances>
-</package3d>
-<package3d name="R/2012-12W" urn="urn:adsk.eagle:package:23419/1" type="box" library_version="5">
-<description>Chip Capacitor Type KEMET R/EIA 2012-12 Wafe solder</description>
-<packageinstances>
-<packageinstance name="R/2012-12W"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_A" urn="urn:adsk.eagle:package:25926/1" type="box" library_version="5">
-<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_A"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_Z" urn="urn:adsk.eagle:package:25927/1" type="box" library_version="5">
-<description>Chip Capacitor Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_Z"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_P" urn="urn:adsk.eagle:package:25919/1" type="box" library_version="5">
-<description>Chip Capacitor Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_P"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_B" urn="urn:adsk.eagle:package:25920/1" type="box" library_version="5">
-<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_B"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_C" urn="urn:adsk.eagle:package:25921/1" type="box" library_version="5">
-<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_C"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_D" urn="urn:adsk.eagle:package:25923/1" type="box" library_version="5">
-<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_D"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_E" urn="urn:adsk.eagle:package:25922/1" type="box" library_version="5">
-<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_E"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -10274,12 +10274,6 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </technologies>
 </device>
 </devices>
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="+" pinorder="1"/>
-<pinmap gate="G$1" pin="-" pinorder="2"/>
-</pinmapping>
-</spice>
 </deviceset>
 </devicesets>
 </library>
@@ -10651,8 +10645,6 @@ W = angled&lt;p&gt;
 </class>
 </classes>
 <parts>
-<part name="PH1" library="photo-elements" library_urn="urn:adsk.eagle:library:323" deviceset="?1060*" device="B" package3d_urn="urn:adsk.eagle:package:22205/1" technology="_23"/>
-<part name="PH2" library="photo-elements" library_urn="urn:adsk.eagle:library:323" deviceset="?1060*" device="B" package3d_urn="urn:adsk.eagle:package:22205/1" technology="_23"/>
 <part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA05-1" device="" package3d_urn="urn:adsk.eagle:package:8332/1"/>
 <part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0805" package3d_urn="urn:adsk.eagle:package:39651/1" value=" "/>
 <part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0805" package3d_urn="urn:adsk.eagle:package:39651/1" value=" "/>
@@ -10677,115 +10669,117 @@ W = angled&lt;p&gt;
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="UD-6,3X7,7" package3d_urn="urn:adsk.eagle:package:23472/1"/>
 <part name="VR1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="TRIMPOT" device="-PTH-10MM-KNOB-1/2W-10%" package3d_urn="urn:adsk.eagle:package:39662/1" value="10k"/>
 <part name="VR2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="TRIMPOT" device="-PTH-10MM-KNOB-1/2W-10%" package3d_urn="urn:adsk.eagle:package:39662/1" value="10k"/>
+<part name="PH3" library="photo-elements" library_urn="urn:adsk.eagle:library:323" deviceset="?1060*" device="V" package3d_urn="urn:adsk.eagle:package:22206/1" technology="_31"/>
+<part name="PH4" library="photo-elements" library_urn="urn:adsk.eagle:library:323" deviceset="?1060*" device="V" package3d_urn="urn:adsk.eagle:package:22206/1" technology="_31"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="PH1" gate="G$1" x="-223.52" y="292.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="-223.52" y="294.64" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-226.06" y="294.64" size="1.778" layer="96" rot="R180"/>
+<instance part="SV1" gate="G$1" x="113.03" y="198.12" smashed="yes">
+<attribute name="VALUE" x="111.76" y="187.96" size="1.778" layer="96"/>
+<attribute name="NAME" x="111.76" y="206.502" size="1.778" layer="95"/>
 </instance>
-<instance part="PH2" gate="G$1" x="-223.52" y="327.66" smashed="yes">
-<attribute name="NAME" x="-220.98" y="327.66" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-220.98" y="325.12" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="13.97" y="146.05" smashed="yes" rot="R90">
+<attribute name="NAME" x="12.446" y="146.05" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="15.494" y="146.05" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="SV1" gate="G$1" x="-124.46" y="401.32" smashed="yes">
-<attribute name="VALUE" x="-125.73" y="391.16" size="1.778" layer="96"/>
-<attribute name="NAME" x="-125.73" y="409.702" size="1.778" layer="95"/>
+<instance part="R3" gate="G$1" x="46.99" y="153.67" smashed="yes" rot="R90">
+<attribute name="NAME" x="45.466" y="153.67" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="48.514" y="153.67" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R2" gate="G$1" x="-223.52" y="349.25" smashed="yes" rot="R90">
-<attribute name="NAME" x="-225.044" y="349.25" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="-221.996" y="349.25" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R4" gate="G$1" x="41.91" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="40.386" y="53.34" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="43.434" y="53.34" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R3" gate="G$1" x="-190.5" y="356.87" smashed="yes" rot="R90">
-<attribute name="NAME" x="-192.024" y="356.87" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="-188.976" y="356.87" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R5" gate="G$1" x="13.97" y="52.07" smashed="yes" rot="R90">
+<attribute name="NAME" x="12.446" y="52.07" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="15.494" y="52.07" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R4" gate="G$1" x="-195.58" y="256.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="-197.104" y="256.54" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="-194.056" y="256.54" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R6" gate="G$1" x="95.25" y="160.02" smashed="yes" rot="R180">
+<attribute name="NAME" x="96.52" y="159.766" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="95.25" y="161.544" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="R5" gate="G$1" x="-223.52" y="255.27" smashed="yes" rot="R90">
-<attribute name="NAME" x="-225.044" y="255.27" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="-221.996" y="255.27" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R7" gate="G$1" x="100.33" y="144.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="100.33" y="143.256" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="100.33" y="146.304" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="R6" gate="G$1" x="-142.24" y="363.22" smashed="yes" rot="R180">
-<attribute name="NAME" x="-140.97" y="362.966" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="-142.24" y="364.744" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<instance part="R8" gate="G$1" x="102.87" y="63.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="102.87" y="61.976" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="102.87" y="65.024" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="R7" gate="G$1" x="-137.16" y="347.98" smashed="yes" rot="R180">
-<attribute name="NAME" x="-137.16" y="346.456" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="-137.16" y="349.504" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<instance part="R9" gate="G$1" x="105.41" y="43.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="105.41" y="41.656" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="105.41" y="44.704" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="R8" gate="G$1" x="-134.62" y="266.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="-134.62" y="265.176" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="-134.62" y="268.224" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<instance part="Q2" gate="G$1" x="44.45" y="134.62" smashed="yes">
+<attribute name="NAME" x="34.29" y="142.24" size="1.778" layer="95"/>
+<attribute name="VALUE" x="34.29" y="139.7" size="1.778" layer="96"/>
 </instance>
-<instance part="R9" gate="G$1" x="-132.08" y="246.38" smashed="yes" rot="R180">
-<attribute name="NAME" x="-132.08" y="244.856" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="-132.08" y="247.904" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<instance part="Q3" gate="G$1" x="80.01" y="111.76" smashed="yes">
+<attribute name="NAME" x="69.85" y="119.38" size="1.778" layer="95"/>
+<attribute name="VALUE" x="69.85" y="116.84" size="1.778" layer="96"/>
 </instance>
-<instance part="Q2" gate="G$1" x="-193.04" y="337.82" smashed="yes">
-<attribute name="NAME" x="-203.2" y="345.44" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-203.2" y="342.9" size="1.778" layer="96"/>
+<instance part="Q4" gate="G$1" x="120.65" y="160.02" smashed="yes">
+<attribute name="NAME" x="110.49" y="167.64" size="1.778" layer="95"/>
+<attribute name="VALUE" x="110.49" y="165.1" size="1.778" layer="96"/>
 </instance>
-<instance part="Q3" gate="G$1" x="-157.48" y="314.96" smashed="yes">
-<attribute name="NAME" x="-167.64" y="322.58" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-167.64" y="320.04" size="1.778" layer="96"/>
+<instance part="Q5" gate="G$1" x="80.01" y="86.36" smashed="yes">
+<attribute name="NAME" x="69.85" y="93.98" size="1.778" layer="95"/>
+<attribute name="VALUE" x="69.85" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="Q4" gate="G$1" x="-116.84" y="363.22" smashed="yes">
-<attribute name="NAME" x="-127" y="370.84" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-127" y="368.3" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="64.77" y="111.76" smashed="yes" rot="R180">
+<attribute name="NAME" x="64.77" y="110.236" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="64.77" y="113.284" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="Q5" gate="G$1" x="-157.48" y="289.56" smashed="yes">
-<attribute name="NAME" x="-167.64" y="297.18" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-167.64" y="294.64" size="1.778" layer="96"/>
+<instance part="R10" gate="G$1" x="64.77" y="86.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="64.77" y="84.836" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="64.77" y="87.884" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="R1" gate="G$1" x="-172.72" y="314.96" smashed="yes" rot="R180">
-<attribute name="NAME" x="-172.72" y="313.436" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="-172.72" y="316.484" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<instance part="Q6" gate="G$1" x="120.65" y="144.78" smashed="yes">
+<attribute name="NAME" x="110.49" y="152.4" size="1.778" layer="95"/>
+<attribute name="VALUE" x="110.49" y="149.86" size="1.778" layer="96"/>
 </instance>
-<instance part="R10" gate="G$1" x="-172.72" y="289.56" smashed="yes" rot="R180">
-<attribute name="NAME" x="-172.72" y="288.036" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="-172.72" y="291.084" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<instance part="R11" gate="G$1" x="82.55" y="127" smashed="yes" rot="R90">
+<attribute name="NAME" x="81.026" y="127" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="84.074" y="127" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="Q6" gate="G$1" x="-116.84" y="347.98" smashed="yes">
-<attribute name="NAME" x="-127" y="355.6" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-127" y="353.06" size="1.778" layer="96"/>
+<instance part="Q7" gate="G$1" x="39.37" y="78.74" smashed="yes" rot="MR180">
+<attribute name="NAME" x="29.21" y="71.12" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="29.21" y="73.66" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R11" gate="G$1" x="-154.94" y="330.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="-156.464" y="330.2" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="-153.416" y="330.2" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="Q8" gate="G$1" x="128.27" y="63.5" smashed="yes" rot="MR180">
+<attribute name="NAME" x="118.11" y="55.88" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="118.11" y="58.42" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="Q7" gate="G$1" x="-198.12" y="281.94" smashed="yes" rot="MR180">
-<attribute name="NAME" x="-208.28" y="274.32" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="-208.28" y="276.86" size="1.778" layer="96" rot="MR180"/>
+<instance part="Q9" gate="G$1" x="128.27" y="43.18" smashed="yes" rot="MR180">
+<attribute name="NAME" x="118.11" y="35.56" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="118.11" y="38.1" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="Q8" gate="G$1" x="-109.22" y="266.7" smashed="yes" rot="MR180">
-<attribute name="NAME" x="-119.38" y="259.08" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="-119.38" y="261.62" size="1.778" layer="96" rot="MR180"/>
+<instance part="C3" gate="G$1" x="113.03" y="132.08" smashed="yes">
+<attribute name="NAME" x="114.046" y="132.715" size="1.778" layer="95"/>
+<attribute name="VALUE" x="114.046" y="127.889" size="1.778" layer="96"/>
 </instance>
-<instance part="Q9" gate="G$1" x="-109.22" y="246.38" smashed="yes" rot="MR180">
-<attribute name="NAME" x="-119.38" y="238.76" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="-119.38" y="241.3" size="1.778" layer="96" rot="MR180"/>
+<instance part="C1" gate="G$1" x="113.03" y="83.82" smashed="yes" rot="R180">
+<attribute name="NAME" x="112.014" y="83.185" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="112.014" y="88.011" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C3" gate="G$1" x="-124.46" y="335.28" smashed="yes">
-<attribute name="NAME" x="-123.444" y="335.915" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-123.444" y="331.089" size="1.778" layer="96"/>
+<instance part="VR1" gate="R?" x="31.75" y="162.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="29.21" y="161.036" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="29.21" y="164.084" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
-<instance part="C1" gate="G$1" x="-124.46" y="287.02" smashed="yes" rot="R180">
-<attribute name="NAME" x="-125.476" y="286.385" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-125.476" y="291.211" size="1.778" layer="96" rot="R180"/>
+<instance part="VR2" gate="R?" x="25.4" y="25.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="27.94" y="26.924" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="27.94" y="23.876" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="VR1" gate="R?" x="-205.74" y="365.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="-208.28" y="364.236" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="-208.28" y="367.284" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<instance part="PH3" gate="G$1" x="13.97" y="124.46" smashed="yes">
+<attribute name="NAME" x="16.51" y="124.46" size="1.778" layer="95"/>
+<attribute name="VALUE" x="16.51" y="121.92" size="1.778" layer="96"/>
 </instance>
-<instance part="VR2" gate="R?" x="-212.09" y="228.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="-209.55" y="230.124" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="-209.55" y="227.076" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="PH4" gate="G$1" x="13.97" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="11.43" y="88.9" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="11.43" y="91.44" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -10793,40 +10787,40 @@ W = angled&lt;p&gt;
 <nets>
 <net name="N$1" class="0">
 <segment>
-<wire x1="-223.52" y1="354.33" x2="-223.52" y2="365.76" width="0.1524" layer="91"/>
-<wire x1="-223.52" y1="365.76" x2="-210.82" y2="365.76" width="0.1524" layer="91"/>
+<wire x1="13.97" y1="151.13" x2="13.97" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="13.97" y1="162.56" x2="26.67" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="VR1" gate="R?" pin="CCW"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="PH1" gate="G$1" pin="1"/>
-<wire x1="-223.52" y1="287.02" x2="-223.52" y2="281.94" width="0.1524" layer="91"/>
-<wire x1="-223.52" y1="281.94" x2="-223.52" y2="260.35" width="0.1524" layer="91"/>
-<wire x1="-200.66" y1="281.94" x2="-223.52" y2="281.94" width="0.1524" layer="91"/>
-<junction x="-223.52" y="281.94"/>
+<wire x1="13.97" y1="83.82" x2="13.97" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="13.97" y1="78.74" x2="13.97" y2="57.15" width="0.1524" layer="91"/>
+<wire x1="36.83" y1="78.74" x2="13.97" y2="78.74" width="0.1524" layer="91"/>
+<junction x="13.97" y="78.74"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="Q7" gate="G$1" pin="B"/>
+<pinref part="PH4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<wire x1="-223.52" y1="250.19" x2="-223.52" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="-223.52" y1="228.6" x2="-217.17" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="13.97" y1="46.99" x2="13.97" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="13.97" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="VR2" gate="R?" pin="CW"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<wire x1="-195.58" y1="276.86" x2="-195.58" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="-195.58" y1="266.7" x2="-195.58" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="-195.58" y1="266.7" x2="-177.8" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="-177.8" y1="266.7" x2="-177.8" y2="289.56" width="0.1524" layer="91"/>
-<junction x="-195.58" y="266.7"/>
-<wire x1="-139.7" y1="266.7" x2="-177.8" y2="266.7" width="0.1524" layer="91"/>
-<junction x="-177.8" y="266.7"/>
+<wire x1="41.91" y1="73.66" x2="41.91" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="41.91" y1="63.5" x2="41.91" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="41.91" y1="63.5" x2="59.69" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="59.69" y1="63.5" x2="59.69" y2="86.36" width="0.1524" layer="91"/>
+<junction x="41.91" y="63.5"/>
+<wire x1="97.79" y1="63.5" x2="59.69" y2="63.5" width="0.1524" layer="91"/>
+<junction x="59.69" y="63.5"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="R10" gate="G$1" pin="2"/>
@@ -10835,35 +10829,35 @@ W = angled&lt;p&gt;
 </net>
 <net name="N$10" class="0">
 <segment>
-<wire x1="-167.64" y1="289.56" x2="-160.02" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="69.85" y1="86.36" x2="77.47" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="Q5" gate="G$1" pin="B"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<wire x1="-154.94" y1="294.64" x2="-154.94" y2="309.88" width="0.1524" layer="91"/>
+<wire x1="82.55" y1="91.44" x2="82.55" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="E"/>
 <pinref part="Q5" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<wire x1="-160.02" y1="314.96" x2="-167.64" y2="314.96" width="0.1524" layer="91"/>
+<wire x1="77.47" y1="111.76" x2="69.85" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="B"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<wire x1="-154.94" y1="320.04" x2="-154.94" y2="322.58" width="0.1524" layer="91"/>
-<wire x1="-154.94" y1="322.58" x2="-154.94" y2="325.12" width="0.1524" layer="91"/>
-<wire x1="-147.32" y1="363.22" x2="-147.32" y2="322.58" width="0.1524" layer="91"/>
-<wire x1="-147.32" y1="322.58" x2="-147.32" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="-147.32" y1="246.38" x2="-137.16" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="-154.94" y1="322.58" x2="-147.32" y2="322.58" width="0.1524" layer="91"/>
-<junction x="-154.94" y="322.58"/>
-<junction x="-147.32" y="322.58"/>
+<wire x1="82.55" y1="116.84" x2="82.55" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="82.55" y1="119.38" x2="82.55" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="90.17" y1="160.02" x2="90.17" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="90.17" y1="119.38" x2="90.17" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="90.17" y1="43.18" x2="100.33" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="82.55" y1="119.38" x2="90.17" y2="119.38" width="0.1524" layer="91"/>
+<junction x="82.55" y="119.38"/>
+<junction x="90.17" y="119.38"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="Q3" gate="G$1" pin="C"/>
@@ -10872,34 +10866,34 @@ W = angled&lt;p&gt;
 </net>
 <net name="N$14" class="0">
 <segment>
-<wire x1="-177.8" y1="314.96" x2="-182.88" y2="314.96" width="0.1524" layer="91"/>
-<wire x1="-182.88" y1="314.96" x2="-182.88" y2="347.98" width="0.1524" layer="91"/>
-<wire x1="-190.5" y1="351.79" x2="-190.5" y2="347.98" width="0.1524" layer="91"/>
-<wire x1="-190.5" y1="347.98" x2="-190.5" y2="342.9" width="0.1524" layer="91"/>
-<wire x1="-190.5" y1="347.98" x2="-182.88" y2="347.98" width="0.1524" layer="91"/>
-<junction x="-190.5" y="347.98"/>
-<wire x1="-182.88" y1="347.98" x2="-142.24" y2="347.98" width="0.1524" layer="91"/>
-<junction x="-182.88" y="347.98"/>
+<wire x1="59.69" y1="111.76" x2="54.61" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="54.61" y1="111.76" x2="54.61" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="46.99" y1="148.59" x2="46.99" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="46.99" y1="144.78" x2="46.99" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="46.99" y1="144.78" x2="54.61" y2="144.78" width="0.1524" layer="91"/>
+<junction x="46.99" y="144.78"/>
+<wire x1="54.61" y1="144.78" x2="95.25" y2="144.78" width="0.1524" layer="91"/>
+<junction x="54.61" y="144.78"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<junction x="-142.24" y="347.98"/>
+<junction x="95.25" y="144.78"/>
 <pinref part="Q2" gate="G$1" pin="C"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<wire x1="-114.3" y1="358.14" x2="-114.3" y2="353.06" width="0.1524" layer="91"/>
+<wire x1="123.19" y1="154.94" x2="123.19" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="Q4" gate="G$1" pin="E"/>
 <pinref part="Q6" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<wire x1="-129.54" y1="266.7" x2="-124.46" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="266.7" x2="-111.76" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="284.48" x2="-124.46" y2="266.7" width="0.1524" layer="91"/>
-<junction x="-124.46" y="266.7"/>
+<wire x1="107.95" y1="63.5" x2="113.03" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="113.03" y1="63.5" x2="125.73" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="113.03" y1="81.28" x2="113.03" y2="63.5" width="0.1524" layer="91"/>
+<junction x="113.03" y="63.5"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="Q8" gate="G$1" pin="B"/>
 <pinref part="C1" gate="G$1" pin="+"/>
@@ -10907,24 +10901,24 @@ W = angled&lt;p&gt;
 </net>
 <net name="N$20" class="0">
 <segment>
-<wire x1="-106.68" y1="261.62" x2="-106.68" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="130.81" y1="58.42" x2="130.81" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="Q8" gate="G$1" pin="C"/>
 <pinref part="Q9" gate="G$1" pin="E"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<wire x1="-111.76" y1="246.38" x2="-127" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="125.73" y1="43.18" x2="110.49" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="Q9" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<wire x1="-132.08" y1="347.98" x2="-124.46" y2="347.98" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="347.98" x2="-119.38" y2="347.98" width="0.1524" layer="91"/>
-<junction x="-124.46" y="347.98"/>
-<wire x1="-124.46" y1="337.82" x2="-124.46" y2="347.98" width="0.1524" layer="91"/>
+<wire x1="105.41" y1="144.78" x2="113.03" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="113.03" y1="144.78" x2="118.11" y2="144.78" width="0.1524" layer="91"/>
+<junction x="113.03" y="144.78"/>
+<wire x1="113.03" y1="134.62" x2="113.03" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="Q6" gate="G$1" pin="B"/>
 <pinref part="C3" gate="G$1" pin="+"/>
@@ -10932,64 +10926,64 @@ W = angled&lt;p&gt;
 </net>
 <net name="N$4" class="0">
 <segment>
-<wire x1="-195.58" y1="337.82" x2="-223.52" y2="337.82" width="0.1524" layer="91"/>
-<wire x1="-223.52" y1="337.82" x2="-223.52" y2="344.17" width="0.1524" layer="91"/>
-<pinref part="PH2" gate="G$1" pin="1"/>
-<wire x1="-223.52" y1="332.74" x2="-223.52" y2="337.82" width="0.1524" layer="91"/>
-<junction x="-223.52" y="337.82"/>
+<wire x1="41.91" y1="134.62" x2="13.97" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="13.97" y1="134.62" x2="13.97" y2="140.97" width="0.1524" layer="91"/>
+<wire x1="13.97" y1="129.54" x2="13.97" y2="134.62" width="0.1524" layer="91"/>
+<junction x="13.97" y="134.62"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="Q2" gate="G$1" pin="B"/>
+<pinref part="PH3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<wire x1="-119.38" y1="363.22" x2="-137.16" y2="363.22" width="0.1524" layer="91"/>
+<wire x1="118.11" y1="160.02" x2="100.33" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="Q4" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<wire x1="-154.94" y1="281.94" x2="-154.94" y2="284.48" width="0.1524" layer="91"/>
-<label x="-154.94" y="279.4" size="1.778" layer="95"/>
+<wire x1="82.55" y1="78.74" x2="82.55" y2="81.28" width="0.1524" layer="91"/>
+<label x="82.55" y="76.2" size="1.778" layer="95"/>
 <pinref part="Q5" gate="G$1" pin="E"/>
 </segment>
 <segment>
-<wire x1="-190.5" y1="332.74" x2="-190.5" y2="317.5" width="0.1524" layer="91"/>
-<pinref part="PH1" gate="G$1" pin="2"/>
-<wire x1="-223.52" y1="304.8" x2="-223.52" y2="297.18" width="0.1524" layer="91"/>
-<wire x1="-195.58" y1="304.8" x2="-223.52" y2="304.8" width="0.1524" layer="91"/>
-<wire x1="-195.58" y1="287.02" x2="-195.58" y2="304.8" width="0.1524" layer="91"/>
-<pinref part="PH2" gate="G$1" pin="2"/>
-<wire x1="-223.52" y1="322.58" x2="-223.52" y2="317.5" width="0.1524" layer="91"/>
-<wire x1="-223.52" y1="317.5" x2="-223.52" y2="304.8" width="0.1524" layer="91"/>
-<wire x1="-223.52" y1="317.5" x2="-190.5" y2="317.5" width="0.1524" layer="91"/>
-<junction x="-223.52" y="317.5"/>
-<wire x1="-190.5" y1="317.5" x2="-190.5" y2="312.42" width="0.1524" layer="91"/>
-<junction x="-190.5" y="317.5"/>
-<label x="-193.04" y="312.42" size="1.778" layer="95"/>
+<wire x1="46.99" y1="129.54" x2="46.99" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="13.97" y1="101.6" x2="13.97" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="41.91" y1="101.6" x2="13.97" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="41.91" y1="83.82" x2="41.91" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="13.97" y1="119.38" x2="13.97" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="13.97" y1="114.3" x2="13.97" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="13.97" y1="114.3" x2="46.99" y2="114.3" width="0.1524" layer="91"/>
+<junction x="13.97" y="114.3"/>
+<wire x1="46.99" y1="114.3" x2="46.99" y2="109.22" width="0.1524" layer="91"/>
+<junction x="46.99" y="114.3"/>
+<label x="44.45" y="109.22" size="1.778" layer="95"/>
 <pinref part="Q2" gate="G$1" pin="E"/>
 <pinref part="Q7" gate="G$1" pin="E"/>
+<pinref part="PH3" gate="G$1" pin="2"/>
+<pinref part="PH4" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="2"/>
-<wire x1="-116.84" y1="398.78" x2="-106.68" y2="398.78" width="0.1524" layer="91"/>
-<label x="-106.68" y="398.78" size="1.778" layer="95"/>
+<wire x1="120.65" y1="195.58" x2="130.81" y2="195.58" width="0.1524" layer="91"/>
+<label x="130.81" y="195.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-114.3" y1="342.9" x2="-114.3" y2="322.58" width="0.1524" layer="91"/>
-<wire x1="-114.3" y1="322.58" x2="-114.3" y2="317.5" width="0.1524" layer="91"/>
-<wire x1="-114.3" y1="317.5" x2="-99.06" y2="317.5" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="330.2" x2="-124.46" y2="322.58" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="322.58" x2="-124.46" y2="302.26" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="302.26" x2="-124.46" y2="292.1" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="271.78" x2="-106.68" y2="302.26" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="302.26" x2="-124.46" y2="302.26" width="0.1524" layer="91"/>
-<junction x="-124.46" y="302.26"/>
-<wire x1="-114.3" y1="322.58" x2="-124.46" y2="322.58" width="0.1524" layer="91"/>
-<junction x="-114.3" y="322.58"/>
-<junction x="-124.46" y="322.58"/>
-<label x="-104.14" y="317.5" size="1.778" layer="95"/>
+<wire x1="123.19" y1="139.7" x2="123.19" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="123.19" y1="119.38" x2="123.19" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="123.19" y1="114.3" x2="138.43" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="113.03" y1="127" x2="113.03" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="113.03" y1="119.38" x2="113.03" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="113.03" y1="99.06" x2="113.03" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="130.81" y1="68.58" x2="110.49" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="110.49" y1="73.66" x2="113.03" y2="99.06" width="0.1524" layer="91"/>
+<junction x="113.03" y="99.06"/>
+<wire x1="123.19" y1="119.38" x2="113.03" y2="119.38" width="0.1524" layer="91"/>
+<junction x="123.19" y="119.38"/>
+<junction x="113.03" y="119.38"/>
+<label x="133.35" y="114.3" size="1.778" layer="95"/>
 <pinref part="Q6" gate="G$1" pin="E"/>
 <pinref part="Q8" gate="G$1" pin="E"/>
 <pinref part="C3" gate="G$1" pin="-"/>
@@ -10998,67 +10992,67 @@ W = angled&lt;p&gt;
 </net>
 <net name="VCC" class="0">
 <segment>
-<wire x1="-154.94" y1="335.28" x2="-154.94" y2="340.36" width="0.1524" layer="91"/>
-<label x="-157.48" y="340.36" size="1.778" layer="95"/>
+<wire x1="82.55" y1="132.08" x2="82.55" y2="137.16" width="0.1524" layer="91"/>
+<label x="80.01" y="137.16" size="1.778" layer="95"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="-207.01" y1="228.6" x2="-199.39" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="-199.39" y1="228.6" x2="-195.58" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="-195.58" y1="228.6" x2="-195.58" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="-195.58" y1="243.84" x2="-195.58" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="-195.58" y1="243.84" x2="-177.8" y2="243.84" width="0.1524" layer="91"/>
-<junction x="-195.58" y="243.84"/>
-<label x="-182.88" y="243.84" size="1.778" layer="95"/>
+<wire x1="30.48" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="25.4" x2="41.91" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="41.91" y1="25.4" x2="41.91" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="41.91" y1="40.64" x2="41.91" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="41.91" y1="40.64" x2="59.69" y2="40.64" width="0.1524" layer="91"/>
+<junction x="41.91" y="40.64"/>
+<label x="54.61" y="40.64" size="1.778" layer="95"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="VR2" gate="R?" pin="CCW"/>
 <pinref part="VR2" gate="R?" pin="WIPER"/>
-<wire x1="-212.09" y1="223.52" x2="-212.09" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="-212.09" y1="220.98" x2="-199.39" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="-199.39" y1="220.98" x2="-199.39" y2="228.6" width="0.1524" layer="91"/>
-<junction x="-199.39" y="228.6"/>
+<wire x1="25.4" y1="20.32" x2="25.4" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="17.78" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="17.78" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
+<junction x="38.1" y="25.4"/>
 </segment>
 <segment>
-<wire x1="-200.66" y1="365.76" x2="-198.12" y2="365.76" width="0.1524" layer="91"/>
-<wire x1="-198.12" y1="365.76" x2="-190.5" y2="365.76" width="0.1524" layer="91"/>
-<wire x1="-190.5" y1="365.76" x2="-190.5" y2="361.95" width="0.1524" layer="91"/>
-<wire x1="-190.5" y1="365.76" x2="-182.88" y2="365.76" width="0.1524" layer="91"/>
-<junction x="-190.5" y="365.76"/>
-<label x="-185.42" y="365.76" size="1.778" layer="95"/>
+<wire x1="36.83" y1="162.56" x2="39.37" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="39.37" y1="162.56" x2="46.99" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="46.99" y1="162.56" x2="46.99" y2="158.75" width="0.1524" layer="91"/>
+<wire x1="46.99" y1="162.56" x2="54.61" y2="162.56" width="0.1524" layer="91"/>
+<junction x="46.99" y="162.56"/>
+<label x="52.07" y="162.56" size="1.778" layer="95"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="VR1" gate="R?" pin="CW"/>
 <pinref part="VR1" gate="R?" pin="WIPER"/>
-<wire x1="-205.74" y1="370.84" x2="-198.12" y2="370.84" width="0.1524" layer="91"/>
-<wire x1="-198.12" y1="370.84" x2="-198.12" y2="365.76" width="0.1524" layer="91"/>
-<junction x="-198.12" y="365.76"/>
+<wire x1="31.75" y1="167.64" x2="39.37" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="39.37" y1="167.64" x2="39.37" y2="162.56" width="0.1524" layer="91"/>
+<junction x="39.37" y="162.56"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="1"/>
-<wire x1="-116.84" y1="396.24" x2="-106.68" y2="396.24" width="0.1524" layer="91"/>
-<label x="-106.68" y="396.24" size="1.778" layer="95"/>
+<wire x1="120.65" y1="193.04" x2="130.81" y2="193.04" width="0.1524" layer="91"/>
+<label x="130.81" y="193.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="M_VCC" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="3"/>
-<wire x1="-116.84" y1="401.32" x2="-106.68" y2="401.32" width="0.1524" layer="91"/>
-<label x="-106.68" y="401.32" size="1.778" layer="95"/>
+<wire x1="120.65" y1="198.12" x2="130.81" y2="198.12" width="0.1524" layer="91"/>
+<label x="130.81" y="198.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-114.3" y1="373.38" x2="-114.3" y2="368.3" width="0.1524" layer="91"/>
-<label x="-114.3" y="373.38" size="1.778" layer="95"/>
+<wire x1="123.19" y1="170.18" x2="123.19" y2="165.1" width="0.1524" layer="91"/>
+<label x="123.19" y="170.18" size="1.778" layer="95"/>
 <pinref part="Q4" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="M_VCC2" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="5"/>
-<wire x1="-116.84" y1="406.4" x2="-106.68" y2="406.4" width="0.1524" layer="91"/>
-<label x="-106.68" y="406.4" size="1.778" layer="95"/>
+<wire x1="120.65" y1="203.2" x2="130.81" y2="203.2" width="0.1524" layer="91"/>
+<label x="130.81" y="203.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-106.68" y1="233.68" x2="-106.68" y2="241.3" width="0.1524" layer="91"/>
-<label x="-106.68" y="233.68" size="1.778" layer="95"/>
+<wire x1="130.81" y1="30.48" x2="130.81" y2="38.1" width="0.1524" layer="91"/>
+<label x="130.81" y="30.48" size="1.778" layer="95"/>
 <pinref part="Q9" gate="G$1" pin="C"/>
 </segment>
 </net>
@@ -11082,12 +11076,6 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
-</note>
-<note version="8.4" severity="warning">
-Since Version 8.4, EAGLE supports properties for SPICE simulation. 
-Probes in schematics and SPICE mapping objects found in parts and library devices
-will not be understood with this version. Update EAGLE to the latest version
-for full support of SPICE simulation. 
 </note>
 </compatibility>
 </eagle>
