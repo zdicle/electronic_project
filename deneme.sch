@@ -9,6 +9,20 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -275,91 +289,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
-<package name="TRIMPOT-PTH-3386U" urn="urn:adsk.eagle:footprint:39632/1" library_version="1">
-<description>&lt;h3&gt;Trimpot - PTH, Trimpot w/ finger-adjustable knob&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/products/9806"&gt;Trimpot 10K with Knob&lt;/a&gt; (COM-09806)&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.sparkfun.com/datasheets/Components/General/TSR-3386.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<circle x="0" y="0.575" radius="4" width="0.127" layer="51"/>
-<wire x1="-4.765" y1="-4.765" x2="-4" y2="-4.765" width="0.2032" layer="21"/>
-<wire x1="4" y1="-4.765" x2="4.765" y2="-4.765" width="0.2032" layer="21"/>
-<wire x1="4.765" y1="-4.765" x2="4.765" y2="4.765" width="0.2032" layer="21"/>
-<wire x1="4.765" y1="4.765" x2="-4.765" y2="4.765" width="0.2032" layer="21"/>
-<wire x1="-4.765" y1="4.765" x2="-4.765" y2="-4.765" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="2.2" x2="-0.5" y2="2.2" width="0.127" layer="51"/>
-<wire x1="-0.5" y1="2.2" x2="-0.5" y2="-1.8" width="0.127" layer="51"/>
-<wire x1="-0.5" y1="-1.8" x2="0.5" y2="-1.8" width="0.127" layer="51"/>
-<wire x1="0.5" y1="-1.8" x2="0.5" y2="2.2" width="0.127" layer="51"/>
-<wire x1="0.5" y1="2.2" x2="1.5" y2="2.2" width="0.127" layer="51"/>
-<wire x1="0" y1="3.7" x2="-1.5" y2="2.2" width="0.127" layer="51"/>
-<wire x1="1.5" y1="2.2" x2="0" y2="3.7" width="0.127" layer="51"/>
-<wire x1="-4" y1="-4.765" x2="-4" y2="-4.365" width="0.2032" layer="21"/>
-<wire x1="-4" y1="-4.365" x2="4" y2="-4.365" width="0.2032" layer="21"/>
-<wire x1="4" y1="-4.365" x2="4" y2="-4.765" width="0.2032" layer="21"/>
-<pad name="1" x="-2.54" y="-0.015" drill="1.016" diameter="1.8796" shape="square"/>
-<pad name="2" x="0" y="-0.015" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="2.54" y="-0.015" drill="1.016" diameter="1.8796"/>
-<text x="0" y="4.953" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-4.572" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TRIMPOT-SMD-5MM" urn="urn:adsk.eagle:footprint:39633/1" library_version="1">
-<description>&lt;h3&gt;Trimpot - SMD, 5mm Square, Closed-Frame&lt;/h3&gt;
-&lt;p&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/13613"&gt;IOIO-OTG - V2.2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.vishay.com/docs/51008/ts53.pdf"&gt;Datasheet&lt;/a&gt; (TS53YL502MR10)&lt;/p&gt;</description>
-<wire x1="-2.5" y1="-2.14" x2="-2.5" y2="2.86" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="2.86" x2="2.5" y2="2.86" width="0.127" layer="51"/>
-<wire x1="2.5" y1="2.86" x2="2.5" y2="-2.14" width="0.127" layer="51"/>
-<wire x1="2.5" y1="-2.14" x2="-2.5" y2="-2.14" width="0.127" layer="51"/>
-<wire x1="-1.4" y1="2.96" x2="-2.6" y2="2.96" width="0.2032" layer="21"/>
-<wire x1="-2.6" y1="2.96" x2="-2.6" y2="1.56" width="0.2032" layer="21"/>
-<wire x1="1.409221875" y1="2.96" x2="2.6" y2="2.96" width="0.2032" layer="21"/>
-<wire x1="2.6" y1="2.96" x2="2.6" y2="1.56" width="0.2032" layer="21"/>
-<wire x1="-2.09398125" y1="-2.24" x2="-2.6" y2="-2.24" width="0.2032" layer="21"/>
-<wire x1="-2.6" y1="-2.24" x2="-2.6" y2="-1.54" width="0.2032" layer="21"/>
-<wire x1="2.1" y1="-2.24" x2="2.6" y2="-2.24" width="0.2032" layer="21"/>
-<wire x1="2.6" y1="-2.24" x2="2.6" y2="-1.54" width="0.2032" layer="21"/>
-<smd name="A" x="1.15" y="-2.54" dx="1.3" dy="1.3" layer="1"/>
-<smd name="B" x="0" y="3.2385" dx="2" dy="1.4016" layer="1" rot="R270"/>
-<smd name="C" x="-1.15" y="-2.54" dx="1.3" dy="1.3" layer="1"/>
-<text x="-2.794" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
-<text x="2.794" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
-</package>
-<package name="TRIMPOT-SMD-3MM-CLOSED" urn="urn:adsk.eagle:footprint:39634/1" library_version="1">
-<description>&lt;h3&gt;Trimpot - SMD, 3mm Square, Closed-Frame&lt;/h3&gt;
-&lt;p&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/12779"&gt;EasyDriver - Stepper Motor Driver&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.bitechnologies.com/pdfs/22.pdf"&gt;Datasheet&lt;/a&gt; (22AR10KTR)&lt;/p&gt;</description>
-<wire x1="-1" y1="1.6" x2="-1.6" y2="1.6" width="0.2032" layer="21"/>
-<wire x1="-1.6" y1="1.6" x2="-1.6" y2="-1.6" width="0.2032" layer="21"/>
-<wire x1="1" y1="1.6" x2="1.6" y2="1.6" width="0.2032" layer="21"/>
-<wire x1="1.6" y1="1.6" x2="1.6" y2="-1.6" width="0.2032" layer="21"/>
-<smd name="1" x="-0.85" y="-1.65" dx="1" dy="0.9" layer="1"/>
-<smd name="2" x="0" y="1.65" dx="1.1" dy="0.9" layer="1"/>
-<smd name="3" x="0.85" y="-1.65" dx="1" dy="0.9" layer="1"/>
-<text x="-1.778" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
-<text x="1.778" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
-</package>
-<package name="TRIMPOT-SMD-TC33X" urn="urn:adsk.eagle:footprint:39635/1" library_version="1">
-<description>&lt;h3&gt;Bourns TC33X Trimpot - SMD, 3mm Square, Open-Frame&lt;/h3&gt;
-&lt;p&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/13899"&gt;Shapeoko&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.bourns.com/docs/Product-Datasheets/TC33.pdf"&gt;Datasheet&lt;/a&gt; (TS53YL502MR10)&lt;/p&gt;</description>
-<circle x="0" y="0" radius="1.15" width="0.1016" layer="51"/>
-<wire x1="-1.45" y1="1.75" x2="-1.45" y2="-1.65" width="0.254" layer="51"/>
-<wire x1="-1.45" y1="-1.65" x2="1.45" y2="-1.65" width="0.254" layer="51"/>
-<wire x1="1.45" y1="-1.65" x2="1.45" y2="1.75" width="0.254" layer="51"/>
-<wire x1="1.45" y1="1.75" x2="-1.45" y2="1.75" width="0.254" layer="51"/>
-<wire x1="-1.45" y1="-0.4" x2="-1.45" y2="1.75" width="0.254" layer="21"/>
-<wire x1="-1.45" y1="1.75" x2="-0.85" y2="1.75" width="0.254" layer="21"/>
-<wire x1="1.45" y1="-0.4" x2="1.45" y2="1.75" width="0.254" layer="21"/>
-<wire x1="1.45" y1="1.75" x2="0.85" y2="1.75" width="0.254" layer="21"/>
-<wire x1="-1.8034" y1="2.5019" x2="1.8034" y2="2.5019" width="0.0508" layer="39"/>
-<wire x1="1.8034" y1="2.5019" x2="1.8034" y2="-2.6289" width="0.0508" layer="39"/>
-<wire x1="1.8034" y1="-2.6289" x2="-1.8034" y2="-2.6289" width="0.0508" layer="39"/>
-<wire x1="-1.8034" y1="-2.6289" x2="-1.8034" y2="2.5019" width="0.0508" layer="39"/>
-<smd name="1" x="-1" y="-1.825" dx="1.2" dy="1.2" layer="1"/>
-<smd name="2" x="0" y="1.5" dx="1.5" dy="1.6" layer="1"/>
-<smd name="3" x="1" y="-1.825" dx="1.2" dy="1.2" layer="1"/>
-<text x="-1.905" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="1.905" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
-</package>
 </packages>
 <packages3d>
 <package3d name="AXIAL-0.3" urn="urn:adsk.eagle:package:39658/1" type="box" library_version="1">
@@ -405,38 +334,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <packageinstance name="1206"/>
 </packageinstances>
 </package3d>
-<package3d name="TRIMPOT-PTH-3386U" urn="urn:adsk.eagle:package:39662/1" type="box" library_version="1">
-<description>Trimpot - PTH, Trimpot w/ finger-adjustable knob
-Trimpot 10K with Knob (COM-09806)
-Datasheet</description>
-<packageinstances>
-<packageinstance name="TRIMPOT-PTH-3386U"/>
-</packageinstances>
-</package3d>
-<package3d name="TRIMPOT-SMD-5MM" urn="urn:adsk.eagle:package:39663/1" type="box" library_version="1">
-<description>Trimpot - SMD, 5mm Square, Closed-Frame
-Used on e.g. IOIO-OTG - V2.2
-Datasheet (TS53YL502MR10)</description>
-<packageinstances>
-<packageinstance name="TRIMPOT-SMD-5MM"/>
-</packageinstances>
-</package3d>
-<package3d name="TRIMPOT-SMD-3MM-CLOSED" urn="urn:adsk.eagle:package:39665/1" type="box" library_version="1">
-<description>Trimpot - SMD, 3mm Square, Closed-Frame
-Used on e.g. EasyDriver - Stepper Motor Driver
-Datasheet (22AR10KTR)</description>
-<packageinstances>
-<packageinstance name="TRIMPOT-SMD-3MM-CLOSED"/>
-</packageinstances>
-</package3d>
-<package3d name="TRIMPOT-SMD-TC33X" urn="urn:adsk.eagle:package:39666/1" type="box" library_version="1">
-<description>Bourns TC33X Trimpot - SMD, 3mm Square, Open-Frame
-Used on e.g. Shapeoko
-Datasheet (TS53YL502MR10)</description>
-<packageinstances>
-<packageinstance name="TRIMPOT-SMD-TC33X"/>
-</packageinstances>
-</package3d>
 </packages3d>
 <symbols>
 <symbol name="RESISTOR" urn="urn:adsk.eagle:symbol:39614/1" library_version="1">
@@ -453,30 +350,6 @@ Datasheet (TS53YL502MR10)</description>
 <text x="0" y="-1.524" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-<symbol name="TRIMPOT" urn="urn:adsk.eagle:symbol:39631/1" library_version="1">
-<description>&lt;h3&gt;Trimming Potentiometer (Trimpot)&lt;/h3&gt;
-&lt;p&gt;Three-terminal potentiometers, with an adjustable wiper and two adjustable resistors. A pot can be used to create a configurable voltage divider, or as a variable resistor.&lt;/p&gt;
-&lt;p&gt;"Trimpots" are a subset of potentiometers, usually intended for "set-and-forget" applications. They're often more delicate than standard potentiometers - rated for fewer turns.&lt;/p&gt;</description>
-<pin name="CCW" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="CW" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="WIPER" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<wire x1="0" y1="-2.54" x2="-1.016" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="-2.159" x2="1.016" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="-1.524" x2="-1.016" y2="-0.889" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="-0.889" x2="1.016" y2="-0.254" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="-0.254" x2="-1.016" y2="0.381" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="0.381" x2="1.016" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="1.016" x2="-1.016" y2="1.651" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="1.651" x2="1.016" y2="2.286" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="2.286" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<text x="-1.524" y="2.54" size="1.778" layer="95" font="vector" rot="R90">&gt;NAME</text>
-<text x="1.524" y="2.54" size="1.778" layer="96" font="vector" rot="R90" align="top-left">&gt;VALUE</text>
-<polygon width="0.1524" layer="94">
-<vertex x="1.016" y="0"/>
-<vertex x="2.54" y="-1.016"/>
-<vertex x="2.54" y="1.016"/>
-</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -573,95 +446,6 @@ Datasheet (TS53YL502MR10)</description>
 <technology name="">
 <attribute name="PROD_ID" value=" " constant="no"/>
 <attribute name="VALUE" value=" " constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TRIMPOT" urn="urn:adsk.eagle:component:39768/1" prefix="VR" uservalue="yes" library_version="1">
-<description>&lt;h3&gt;Trimming Potentiometer (Trimpot)&lt;/h3&gt;
-&lt;p&gt;Three-terminal potentiometers, with an adjustable wiper and two adjustable resistors. A pot can be used to create a configurable voltage divider, or as a variable resistor.&lt;/p&gt;
-&lt;p&gt;"Trimpots" are a subset of potentiometers, usually intended for "set-and-forget" applications. They're often more delicate than standard potentiometers - rated for fewer turns.&lt;/p&gt;
-&lt;h4&gt;Variants&lt;/h4&gt;
-&lt;h5&gt;PTH-KNOB - PTH Trimpot w/ finger-adjustable knob&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/9806"&gt;Trimpot 10K with Knob&lt;/a&gt; (COM-09806)&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.sparkfun.com/datasheets/Components/General/TSR-3386.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;/ul&gt;
-&lt;h5&gt;SMD-3MM-CLOSED-FRAME - SMD 3mm Square Closed-Frame Trimpot&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/12779"&gt;EasyDriver - Stepper Motor Driver&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.bitechnologies.com/pdfs/22.pdf"&gt;Datasheet&lt;/a&gt; (22AR10KTR)&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-5MM - SMD 5mm Square Closed-Frame Trimpot&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/13613"&gt;IOIO-OTG - V2.2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.vishay.com/docs/51008/ts53.pdf"&gt;Datasheet&lt;/a&gt; (TS53YL502MR10)&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-3MM-1/10W-25% - 3mm Square Open-Frame Trimpot&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/13899"&gt;SparkFun Shapeoko&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.bourns.com/docs/Product-Datasheets/TC33.pdf"&gt;Datasheet&lt;/a&gt; (TC33X-2-103E)&lt;/li&gt;&lt;/ul&gt;</description>
-<gates>
-<gate name="R?" symbol="TRIMPOT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-PTH-10MM-KNOB-1/2W-10%" package="TRIMPOT-PTH-3386U">
-<connects>
-<connect gate="R?" pin="CCW" pad="1"/>
-<connect gate="R?" pin="CW" pad="3"/>
-<connect gate="R?" pin="WIPER" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39662/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09730"/>
-<attribute name="SF_SKU" value="COM-09806"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-5MM-CLOSED-1/4W-20%" package="TRIMPOT-SMD-5MM">
-<connects>
-<connect gate="R?" pin="CCW" pad="A"/>
-<connect gate="R?" pin="CW" pad="C"/>
-<connect gate="R?" pin="WIPER" pad="B"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39663/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-11156"/>
-<attribute name="VALUE" value="5k"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-3MM-CLOSED-1/8W-20%" package="TRIMPOT-SMD-3MM-CLOSED">
-<connects>
-<connect gate="R?" pin="CCW" pad="1"/>
-<connect gate="R?" pin="CW" pad="3"/>
-<connect gate="R?" pin="WIPER" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39665/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09285"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-3MM-OPEN-1/10W-25%" package="TRIMPOT-SMD-TC33X">
-<connects>
-<connect gate="R?" pin="CCW" pad="3"/>
-<connect gate="R?" pin="CW" pad="1"/>
-<connect gate="R?" pin="WIPER" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39666/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12428"/>
-<attribute name="VALUE" value="10k"/>
 </technology>
 </technologies>
 </device>
@@ -10282,102 +10066,44 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 Manufakturer: PerkinElmer Optoelektronics&lt;br&gt;
 www.perkinelmer.com/opto</description>
 <packages>
-<package name="TO-8_B10" urn="urn:adsk.eagle:footprint:22185/1" library_version="1">
-<description>&lt;b&gt;Sensor&lt;/b&gt; Street Light control&lt;p&gt;
-Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_PhotocellsB1060.pdf</description>
-<wire x1="-3.6" y1="-3.6" x2="-3.6" y2="-1" width="0.2032" layer="21"/>
-<wire x1="-3.6" y1="1" x2="-3.6" y2="3.6" width="0.2032" layer="21"/>
-<wire x1="-3.6" y1="3.6" x2="3.6" y2="3.6" width="0.2032" layer="21"/>
-<wire x1="3.6" y1="3.6" x2="3.6" y2="1" width="0.2032" layer="21"/>
-<wire x1="3.6" y1="-1" x2="3.6" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="3.6" y1="-3.6" x2="-3.6" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="3.5" x2="2.5" y2="3" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="3" x2="-2.5" y2="3" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="3" x2="-2.5" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="2" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="2" x2="-2.5" y2="2" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="2" x2="-2.5" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="1.5" x2="2" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="2" y1="1.5" x2="2" y2="1" width="0.2032" layer="21"/>
-<wire x1="2" y1="1" x2="-2" y2="1" width="0.2032" layer="21"/>
-<wire x1="-2" y1="1" x2="-2" y2="0.5" width="0.2032" layer="21"/>
-<wire x1="-2" y1="0.5" x2="2" y2="0.5" width="0.2032" layer="21"/>
-<wire x1="2" y1="0.5" x2="2" y2="0" width="0.2032" layer="21"/>
-<wire x1="2" y1="0" x2="-2" y2="0" width="0.2032" layer="21"/>
-<wire x1="-2" y1="0" x2="-2" y2="-0.5" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-0.5" x2="2" y2="-0.5" width="0.2032" layer="21"/>
-<wire x1="2" y1="-0.5" x2="2" y2="-1" width="0.2032" layer="21"/>
-<wire x1="2" y1="-1" x2="-2.5" y2="-1" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="-1" x2="-2.5" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="-1.5" x2="2.5" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="-1.5" x2="2.5" y2="-2" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="-2" x2="-2.5" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="-2" x2="-2.5" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="2.5" y2="-3" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="-3" x2="-2.5" y2="-3" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="-3" x2="-2.5" y2="-3.5" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="6.9001" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="6.1002" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="5.3002" width="0.2032" layer="21"/>
-<pad name="1" x="-3.75" y="0" drill="0.8" diameter="1.4"/>
-<pad name="2" x="3.75" y="0" drill="0.8" diameter="1.4"/>
-<text x="-3" y="-8.5" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.5" y="7.5" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="TO-5_V10" urn="urn:adsk.eagle:footprint:22186/1" library_version="1">
-<description>&lt;b&gt;Sensor&lt;/b&gt; Street Light control&lt;p&gt;
-Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_PhotocellsB1060.pdf</description>
-<wire x1="-2.6" y1="-2.6" x2="-2.6" y2="-1" width="0.2032" layer="21"/>
-<wire x1="-2.6" y1="1" x2="-2.6" y2="2.6" width="0.2032" layer="21"/>
-<wire x1="-2.6" y1="2.6" x2="2.6" y2="2.6" width="0.2032" layer="21"/>
-<wire x1="2.6" y1="2.6" x2="2.6" y2="1" width="0.2032" layer="21"/>
-<wire x1="2.6" y1="-1" x2="2.6" y2="-2.6" width="0.2032" layer="21"/>
-<wire x1="2.6" y1="-2.6" x2="-2.6" y2="-2.6" width="0.2032" layer="21"/>
-<wire x1="2" y1="2.5" x2="2" y2="2" width="0.2032" layer="21"/>
-<wire x1="2" y1="2" x2="-2" y2="2" width="0.2032" layer="21"/>
-<wire x1="-2" y1="2" x2="-2" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="-2" y1="1.5" x2="2" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="2" y1="1.5" x2="2" y2="1" width="0.2032" layer="21"/>
-<wire x1="2" y1="1" x2="-1.5" y2="1" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="1" x2="-1.5" y2="0.5" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="0.5" x2="1.5" y2="0.5" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="0.5" x2="1.5" y2="0" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="0" x2="-1.5" y2="0" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="0" x2="-1.5" y2="-0.5" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="-0.5" x2="1.5" y2="-0.5" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="-0.5" x2="1.5" y2="-1" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="-1" x2="-2" y2="-1" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-1" x2="-2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-1.5" x2="2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="2" y1="-1.5" x2="2" y2="-2" width="0.2032" layer="21"/>
-<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-2" x2="-2" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="3.5" y1="-3" x2="4" y2="-3.5" width="0.2032" layer="21"/>
-<wire x1="4" y1="-3.5" x2="3.5" y2="-4" width="0.2032" layer="21"/>
-<wire x1="3.5" y1="-4" x2="3" y2="-3.5" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="3.9262" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="4.55" width="0.2032" layer="21"/>
-<pad name="1" x="-2.7" y="0" drill="0.8" diameter="1.4"/>
-<pad name="2" x="2.7" y="0" drill="0.8" diameter="1.4"/>
-<text x="-2.5" y="-6.5" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3" y="5" size="1.27" layer="27">&gt;VALUE</text>
+<package name="T0-46-A10XX" urn="urn:adsk.eagle:footprint:22184/1" library_version="1">
+<description>&lt;b&gt;Sensor&lt;/b&gt; Robust Light Sensing Applications&lt;p&gt;
+Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_PhotocellsA1050.pdf</description>
+<wire x1="-1.4326" y1="-1.5" x2="1.4326" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="1.4326" y1="-1.5" x2="1.4326" y2="-0.825" width="0.2032" layer="21"/>
+<wire x1="1.4326" y1="0.825" x2="1.4326" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="1.4326" y1="1.5" x2="-1.4326" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="-1.4326" y1="1.5" x2="-1.4326" y2="0.825" width="0.2032" layer="21"/>
+<wire x1="-1.4326" y1="-0.825" x2="-1.4326" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="-0.8758" y1="1.4147" x2="-0.4042" y2="0.9432" width="0.2032" layer="21" curve="90"/>
+<wire x1="-0.4042" y1="0.9432" x2="0.6737" y2="0.9432" width="0.2032" layer="21"/>
+<wire x1="0.6737" y1="0.9432" x2="0.6737" y2="0.6063" width="0.2032" layer="21" curve="-180"/>
+<wire x1="0.6737" y1="0.6063" x2="-0.2021" y2="0.6063" width="0.2032" layer="21"/>
+<wire x1="-0.2021" y1="0.6063" x2="-0.2021" y2="0.2695" width="0.2032" layer="21" curve="180"/>
+<wire x1="-0.2021" y1="0.2695" x2="0.2021" y2="0.2695" width="0.2032" layer="21"/>
+<wire x1="0.2021" y1="0.2695" x2="0.2021" y2="-0.0674" width="0.2032" layer="21" curve="-180"/>
+<wire x1="0.2021" y1="-0.0674" x2="-0.2021" y2="-0.0674" width="0.2032" layer="21"/>
+<wire x1="-0.2021" y1="-0.0674" x2="-0.2021" y2="-0.4042" width="0.2032" layer="21" curve="180"/>
+<wire x1="-0.2021" y1="-0.4042" x2="0.1347" y2="-0.4042" width="0.2032" layer="21"/>
+<wire x1="0.1347" y1="-0.4042" x2="0.1347" y2="-0.741" width="0.2032" layer="21" curve="-180"/>
+<wire x1="0.1347" y1="-0.741" x2="-0.6737" y2="-0.741" width="0.2032" layer="21"/>
+<wire x1="-0.6737" y1="-0.741" x2="-0.6737" y2="-1.0779" width="0.2032" layer="21" curve="180"/>
+<wire x1="-0.6737" y1="-1.0779" x2="0.6063" y2="-1.0779" width="0.2032" layer="21"/>
+<wire x1="0.6063" y1="-1.0779" x2="0.8758" y2="-1.4147" width="0.2032" layer="21" curve="-102.667937"/>
+<circle x="0" y="0" radius="3.1" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="2.55" width="0.2032" layer="21"/>
+<pad name="1" x="-1.7" y="0" drill="0.7" diameter="1.4"/>
+<pad name="2" x="1.7" y="0" drill="0.7" diameter="1.4"/>
+<text x="-1.905" y="-5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="TO-8_B10" urn="urn:adsk.eagle:package:22205/1" type="box" library_version="1">
-<description>Sensor Street Light control
-Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_PhotocellsB1060.pdf</description>
+<package3d name="T0-46-A10XX" urn="urn:adsk.eagle:package:22201/1" type="box" library_version="1">
+<description>Sensor Robust Light Sensing Applications
+Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_PhotocellsA1050.pdf</description>
 <packageinstances>
-<packageinstance name="TO-8_B10"/>
-</packageinstances>
-</package3d>
-<package3d name="TO-5_V10" urn="urn:adsk.eagle:package:22206/1" type="box" library_version="1">
-<description>Sensor Street Light control
-Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_PhotocellsB1060.pdf</description>
-<packageinstances>
-<packageinstance name="TO-5_V10"/>
+<packageinstance name="T0-46-A10XX"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -10409,37 +10135,37 @@ Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_Photocells
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="?1060*" urn="urn:adsk.eagle:component:22215/1" prefix="PH" library_version="1">
-<description>&lt;b&gt;Sensor&lt;/b&gt; Street Light control&lt;p&gt;
-Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_PhotocellsB1060.pdf</description>
+<deviceset name="A10" urn="urn:adsk.eagle:component:22220/1" prefix="PH" library_version="1">
+<description>&lt;b&gt;Sensor&lt;/b&gt; Robust Light Sensing Applications&lt;p&gt;
+Outdoor Light Sensing Application&lt;br&gt;
+Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_PhotocellsA1050.pdf</description>
 <gates>
 <gate name="G$1" symbol="PHOTOCELL" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
-<device name="B" package="TO-8_B10">
+<device name="" package="T0-46-A10XX">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22205/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22201/1"/>
 </package3dinstances>
 <technologies>
-<technology name="_23"/>
-</technologies>
-</device>
-<device name="V" package="TO-5_V10">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22206/1"/>
-</package3dinstances>
-<technologies>
-<technology name="_21"/>
-<technology name="_31"/>
-<technology name="_32"/>
+<technology name="50_09"/>
+<technology name="50_11"/>
+<technology name="50_12"/>
+<technology name="50_13"/>
+<technology name="50_14"/>
+<technology name="60_09"/>
+<technology name="60_11"/>
+<technology name="60_12"/>
+<technology name="60_13"/>
+<technology name="60_14"/>
+<technology name="60_31"/>
+<technology name="60_32"/>
+<technology name="60_33"/>
+<technology name="60_34"/>
 </technologies>
 </device>
 </devices>
@@ -10635,6 +10361,140 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="piher" urn="urn:adsk.eagle:library:324">
+<description>&lt;b&gt;Piher Potentiometers&lt;/b&gt;&lt;p&gt;
+PC-16/16 mm carbon types&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="PC16S" urn="urn:adsk.eagle:footprint:22229/1" library_version="1">
+<description>&lt;b&gt;POTENTIOMETER&lt;/b&gt;&lt;p&gt;
+single carbon potentiometer, 16 mm</description>
+<wire x1="-7.9" y1="0.1" x2="-4.9" y2="0.1" width="0.2032" layer="21"/>
+<wire x1="-4.9" y1="0.1" x2="4.9" y2="0.1" width="0.2032" layer="21"/>
+<wire x1="4.9" y1="0.1" x2="7.9" y2="0.1" width="0.2032" layer="21"/>
+<wire x1="-7.9" y1="8" x2="7.9" y2="8" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="-8.8" x2="4.5" y2="-8.8" width="0.2032" layer="21"/>
+<wire x1="-4.9" y1="0.1" x2="-4.9" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-4.9" y1="-3.7" x2="-4.9" y2="-8.4" width="0.2032" layer="21"/>
+<wire x1="4.9" y1="0.1" x2="4.9" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="4.9" y1="-3.7" x2="4.9" y2="-8.4" width="0.2032" layer="21"/>
+<wire x1="-7.9" y1="8" x2="-7.9" y2="0.1" width="0.2032" layer="21"/>
+<wire x1="7.9" y1="0.1" x2="7.9" y2="8" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="-44.9" x2="2.9" y2="-44.9" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="-8.9" x2="-2.9" y2="-44.9" width="0.2032" layer="21"/>
+<wire x1="2.9" y1="-8.9" x2="2.9" y2="-44.9" width="0.2032" layer="21"/>
+<wire x1="-4.9" y1="-8.4" x2="-4.5" y2="-8.8" width="0.2032" layer="21"/>
+<wire x1="4.5" y1="-8.8" x2="4.9" y2="-8.4" width="0.2032" layer="21"/>
+<wire x1="-5.7" y1="-1.9" x2="-4.9" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-4.9" y1="-1.9" x2="4.9" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="4.9" y1="-1.9" x2="5.7" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="5.7" y1="-1.9" x2="6.4" y2="-2" width="0.2032" layer="21"/>
+<wire x1="6.4" y1="-2" x2="6.7" y2="-2.1" width="0.2032" layer="21"/>
+<wire x1="6.7" y1="-2.1" x2="6.7" y2="-3.5" width="0.2032" layer="21"/>
+<wire x1="6.7" y1="-3.5" x2="6.4" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="6.4" y1="-3.6" x2="5.7" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="5.7" y1="-3.7" x2="4.9" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="4.9" y1="-3.7" x2="-4.9" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="-4.9" y1="-3.7" x2="-5.7" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="-5.7" y1="-3.7" x2="-6.4" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="-6.4" y1="-3.6" x2="-6.7" y2="-3.5" width="0.2032" layer="21"/>
+<wire x1="-6.7" y1="-3.5" x2="-6.7" y2="-2.1" width="0.2032" layer="21"/>
+<wire x1="-6.7" y1="-2.1" x2="-6.4" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-6.4" y1="-2" x2="-5.7" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="-2.4" x2="3" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="3" y1="-2.2" x2="2.2" y2="-2" width="0.2032" layer="21"/>
+<wire x1="2.2" y1="-2" x2="1.4" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="-2.4" x2="-3" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-2.2" x2="-2.2" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="-2" x2="-1.4" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-3.4" x2="-2.2" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="-3.6" x2="-1.4" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="-3.2" x2="3" y2="-3.4" width="0.2032" layer="21"/>
+<wire x1="3" y1="-3.4" x2="2.2" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="2.2" y1="-3.6" x2="1.4" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="-3.2" x2="-3.8" y2="-3.4" width="0.2032" layer="21"/>
+<wire x1="-3.8" y1="-3.4" x2="-4.6" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="-4.6" y1="-3.6" x2="-5.4" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="-2.4" x2="-3.8" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-3.8" y1="-2.2" x2="-4.6" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-4.6" y1="-2" x2="-5.4" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="-2.4" x2="3.8" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="3.8" y1="-2.2" x2="4.6" y2="-2" width="0.2032" layer="21"/>
+<wire x1="4.6" y1="-2" x2="5.4" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="-3.2" x2="3.8" y2="-3.4" width="0.2032" layer="21"/>
+<wire x1="3.8" y1="-3.4" x2="4.6" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="4.6" y1="-3.6" x2="5.4" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="-2.4" x2="-3.4" y2="-3.2" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="-2.4" x2="3.4" y2="-3.2" width="0.2032" layer="21"/>
+<wire x1="-3.4072" y1="-3.2" x2="-3.0072" y2="-3.4" width="0.2032" layer="21"/>
+<pad name="1A" x="-5" y="6.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="1S" x="0" y="6.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="1E" x="5" y="6.5" drill="1.2" shape="long" rot="R90"/>
+<text x="-8.32" y="0.52" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="9.9" y="0.52" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="PC16S" urn="urn:adsk.eagle:package:22243/1" type="box" library_version="1">
+<description>POTENTIOMETER
+single carbon potentiometer, 16 mm</description>
+<packageinstances>
+<packageinstance name="PC16S"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="POT" urn="urn:adsk.eagle:symbol:22228/1" library_version="1">
+<wire x1="-4.318" y1="-1.524" x2="-4.318" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-4.318" y1="-0.508" x2="-4.318" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-4.318" y1="0.508" x2="4.318" y2="0.508" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.508" x2="4.318" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="4.318" y1="-0.508" x2="4.318" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="4.318" y1="-1.524" x2="-4.318" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-0.508" x2="-4.318" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-0.508" x2="4.318" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-3.81" y2="1.778" width="0.1524" layer="94"/>
+<wire x1="-4.318" y1="1.27" x2="-3.81" y2="1.778" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="1.778" x2="-3.302" y2="2.286" width="0.1524" layer="94"/>
+<text x="-4.064" y="3.556" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.286" y="1.27" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1A" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1S" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1E" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PC16S" urn="urn:adsk.eagle:component:22250/1" prefix="R" library_version="1">
+<description>&lt;b&gt;POTENTIOMETER&lt;/b&gt;&lt;p&gt;
+single carbon potentiometer, 16 mm, S3ROH</description>
+<gates>
+<gate name="G$1" symbol="POT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PC16S">
+<connects>
+<connect gate="G$1" pin="1A" pad="1A"/>
+<connect gate="G$1" pin="1E" pad="1E"/>
+<connect gate="G$1" pin="1S" pad="1S"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22243/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="4452940" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10667,10 +10527,10 @@ W = angled&lt;p&gt;
 <part name="Q9" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BCX70*" device="SMD" package3d_urn="urn:adsk.eagle:package:28738/2"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="UD-6,3X7,7" package3d_urn="urn:adsk.eagle:package:23472/1"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="UD-6,3X7,7" package3d_urn="urn:adsk.eagle:package:23472/1"/>
-<part name="VR1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="TRIMPOT" device="-PTH-10MM-KNOB-1/2W-10%" package3d_urn="urn:adsk.eagle:package:39662/1" value="10k"/>
-<part name="VR2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="TRIMPOT" device="-PTH-10MM-KNOB-1/2W-10%" package3d_urn="urn:adsk.eagle:package:39662/1" value="10k"/>
-<part name="PH3" library="photo-elements" library_urn="urn:adsk.eagle:library:323" deviceset="?1060*" device="V" package3d_urn="urn:adsk.eagle:package:22206/1" technology="_31"/>
-<part name="PH4" library="photo-elements" library_urn="urn:adsk.eagle:library:323" deviceset="?1060*" device="V" package3d_urn="urn:adsk.eagle:package:22206/1" technology="_31"/>
+<part name="PH1" library="photo-elements" library_urn="urn:adsk.eagle:library:323" deviceset="A10" device="" package3d_urn="urn:adsk.eagle:package:22201/1" technology="50_12"/>
+<part name="PH2" library="photo-elements" library_urn="urn:adsk.eagle:library:323" deviceset="A10" device="" package3d_urn="urn:adsk.eagle:package:22201/1" technology="50_12"/>
+<part name="R12" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
+<part name="R13" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -10765,21 +10625,21 @@ W = angled&lt;p&gt;
 <attribute name="NAME" x="112.014" y="83.185" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="112.014" y="88.011" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="VR1" gate="R?" x="31.75" y="162.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="29.21" y="161.036" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="29.21" y="164.084" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<instance part="PH1" gate="G$1" x="-5.08" y="86.36" smashed="yes">
+<attribute name="NAME" x="-2.54" y="86.36" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-2.54" y="83.82" size="1.778" layer="96"/>
 </instance>
-<instance part="VR2" gate="R?" x="25.4" y="25.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="27.94" y="26.924" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="27.94" y="23.876" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="PH2" gate="G$1" x="-2.54" y="124.46" smashed="yes">
+<attribute name="NAME" x="0" y="124.46" size="1.778" layer="95"/>
+<attribute name="VALUE" x="0" y="121.92" size="1.778" layer="96"/>
 </instance>
-<instance part="PH3" gate="G$1" x="13.97" y="124.46" smashed="yes">
-<attribute name="NAME" x="16.51" y="124.46" size="1.778" layer="95"/>
-<attribute name="VALUE" x="16.51" y="121.92" size="1.778" layer="96"/>
+<instance part="R12" gate="G$1" x="25.4" y="33.02" smashed="yes">
+<attribute name="NAME" x="21.336" y="36.576" size="1.778" layer="95"/>
+<attribute name="VALUE" x="23.114" y="34.29" size="1.778" layer="96"/>
 </instance>
-<instance part="PH4" gate="G$1" x="13.97" y="88.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="11.43" y="88.9" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="11.43" y="91.44" size="1.778" layer="96" rot="R180"/>
+<instance part="R13" gate="G$1" x="30.48" y="170.18" smashed="yes">
+<attribute name="NAME" x="26.416" y="173.736" size="1.778" layer="95"/>
+<attribute name="VALUE" x="28.194" y="171.45" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -10788,20 +10648,22 @@ W = angled&lt;p&gt;
 <net name="N$1" class="0">
 <segment>
 <wire x1="13.97" y1="151.13" x2="13.97" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="13.97" y1="162.56" x2="26.67" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="13.97" y1="162.56" x2="25.4" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="VR1" gate="R?" pin="CCW"/>
+<pinref part="R13" gate="G$1" pin="1A"/>
+<wire x1="25.4" y1="165.1" x2="25.4" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<wire x1="13.97" y1="83.82" x2="13.97" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="13.97" y1="78.74" x2="13.97" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="36.83" y1="78.74" x2="13.97" y2="78.74" width="0.1524" layer="91"/>
 <junction x="13.97" y="78.74"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="Q7" gate="G$1" pin="B"/>
-<pinref part="PH4" gate="G$1" pin="1"/>
+<pinref part="PH1" gate="G$1" pin="2"/>
+<wire x1="13.97" y1="78.74" x2="-2.54" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="78.74" x2="-5.08" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -10809,7 +10671,8 @@ W = angled&lt;p&gt;
 <wire x1="13.97" y1="46.99" x2="13.97" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="13.97" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="VR2" gate="R?" pin="CW"/>
+<pinref part="R12" gate="G$1" pin="1A"/>
+<wire x1="20.32" y1="25.4" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -10928,11 +10791,12 @@ W = angled&lt;p&gt;
 <segment>
 <wire x1="41.91" y1="134.62" x2="13.97" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="13.97" y1="134.62" x2="13.97" y2="140.97" width="0.1524" layer="91"/>
-<wire x1="13.97" y1="129.54" x2="13.97" y2="134.62" width="0.1524" layer="91"/>
 <junction x="13.97" y="134.62"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="Q2" gate="G$1" pin="B"/>
-<pinref part="PH3" gate="G$1" pin="1"/>
+<pinref part="PH2" gate="G$1" pin="1"/>
+<wire x1="-2.54" y1="129.54" x2="2.54" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="134.62" x2="13.97" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -10950,25 +10814,29 @@ W = angled&lt;p&gt;
 </segment>
 <segment>
 <wire x1="46.99" y1="129.54" x2="46.99" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="13.97" y1="101.6" x2="13.97" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="41.91" y1="101.6" x2="13.97" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="41.91" y1="83.82" x2="41.91" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="13.97" y1="119.38" x2="13.97" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="13.97" y1="114.3" x2="13.97" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="13.97" y1="114.3" x2="46.99" y2="114.3" width="0.1524" layer="91"/>
 <junction x="13.97" y="114.3"/>
+<wire x1="13.97" y1="114.3" x2="46.99" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="46.99" y1="114.3" x2="46.99" y2="109.22" width="0.1524" layer="91"/>
 <junction x="46.99" y="114.3"/>
 <label x="44.45" y="109.22" size="1.778" layer="95"/>
 <pinref part="Q2" gate="G$1" pin="E"/>
 <pinref part="Q7" gate="G$1" pin="E"/>
-<pinref part="PH3" gate="G$1" pin="2"/>
-<pinref part="PH4" gate="G$1" pin="2"/>
+<pinref part="PH2" gate="G$1" pin="2"/>
+<wire x1="13.97" y1="114.3" x2="2.54" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="114.3" x2="-2.54" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="PH1" gate="G$1" pin="1"/>
+<wire x1="-5.08" y1="91.44" x2="5.08" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="101.6" x2="13.97" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="2"/>
-<wire x1="120.65" y1="195.58" x2="130.81" y2="195.58" width="0.1524" layer="91"/>
 <label x="130.81" y="195.58" size="1.778" layer="95"/>
+<wire x1="121.92" y1="195.58" x2="130.81" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="195.58" x2="121.92" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="5"/>
+<wire x1="121.92" y1="203.2" x2="120.65" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="123.19" y1="139.7" x2="123.19" y2="119.38" width="0.1524" layer="91"/>
@@ -11005,26 +10873,27 @@ W = angled&lt;p&gt;
 <junction x="41.91" y="40.64"/>
 <label x="54.61" y="40.64" size="1.778" layer="95"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="VR2" gate="R?" pin="CCW"/>
-<pinref part="VR2" gate="R?" pin="WIPER"/>
-<wire x1="25.4" y1="20.32" x2="25.4" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="17.78" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="17.78" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
 <junction x="38.1" y="25.4"/>
+<pinref part="R12" gate="G$1" pin="1E"/>
+<wire x1="30.48" y1="25.4" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="1S"/>
+<wire x1="25.4" y1="17.78" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="36.83" y1="162.56" x2="39.37" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="39.37" y1="162.56" x2="46.99" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="162.56" x2="46.99" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="46.99" y1="162.56" x2="46.99" y2="158.75" width="0.1524" layer="91"/>
 <wire x1="46.99" y1="162.56" x2="54.61" y2="162.56" width="0.1524" layer="91"/>
 <junction x="46.99" y="162.56"/>
 <label x="52.07" y="162.56" size="1.778" layer="95"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="VR1" gate="R?" pin="CW"/>
-<pinref part="VR1" gate="R?" pin="WIPER"/>
-<wire x1="31.75" y1="167.64" x2="39.37" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="39.37" y1="167.64" x2="39.37" y2="162.56" width="0.1524" layer="91"/>
-<junction x="39.37" y="162.56"/>
+<pinref part="R13" gate="G$1" pin="1S"/>
+<wire x1="35.56" y1="162.56" x2="30.48" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1E"/>
+<wire x1="35.56" y1="162.56" x2="35.56" y2="165.1" width="0.1524" layer="91"/>
+<junction x="35.56" y="162.56"/>
+<wire x1="30.48" y1="165.1" x2="30.48" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="1"/>
@@ -11034,26 +10903,28 @@ W = angled&lt;p&gt;
 </net>
 <net name="M_VCC" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="3"/>
-<wire x1="120.65" y1="198.12" x2="130.81" y2="198.12" width="0.1524" layer="91"/>
-<label x="130.81" y="198.12" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="123.19" y1="170.18" x2="123.19" y2="165.1" width="0.1524" layer="91"/>
 <label x="123.19" y="170.18" size="1.778" layer="95"/>
 <pinref part="Q4" gate="G$1" pin="C"/>
 </segment>
+<segment>
+<label x="130.81" y="203.2" size="1.778" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="4"/>
+<wire x1="127" y1="203.2" x2="130.81" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="120.65" y1="200.66" x2="127" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="127" y1="200.66" x2="127" y2="203.2" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="M_VCC2" class="0">
-<segment>
-<pinref part="SV1" gate="G$1" pin="5"/>
-<wire x1="120.65" y1="203.2" x2="130.81" y2="203.2" width="0.1524" layer="91"/>
-<label x="130.81" y="203.2" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="130.81" y1="30.48" x2="130.81" y2="38.1" width="0.1524" layer="91"/>
 <label x="130.81" y="30.48" size="1.778" layer="95"/>
 <pinref part="Q9" gate="G$1" pin="C"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="3"/>
+<wire x1="120.65" y1="198.12" x2="130.81" y2="198.12" width="0.1524" layer="91"/>
+<label x="130.81" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
